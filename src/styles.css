@@ -1,0 +1,118 @@
+/* Custom Font */
+@font-face {
+    font-family: "Avengeance";
+    src: url("./Fonts/AvengeanceHeroicAvengerBold-MM2J.ttf");
+}
+
+/* Main Heading Style */
+.main-header a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Avengeance';
+    padding: 20px;
+    margin: 5px 0px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Sub Heading Style */
+.sub-header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Avengeance';
+    padding: 20px;
+    margin: 5px 0px;
+    color: white;
+}
+
+/* Carousel Styling */
+.carousel-inner {
+    border-radius: 25px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    font-size: 50px;
+}
+
+#indicator-btn {
+    width: 500px;
+    background-color: white;
+}
+
+/* ------------------ */
+
+.container {
+    margin-top: 40px;
+}
+
+/* Search Bar Styling */
+.form{
+    position: relative;
+}
+
+.form .fa-search{
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #9ca3af;
+}
+
+.form-input{
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+#superhero-search {
+    margin-bottom: 15px;
+}
+
+/* ---------------------- */
+
+/* Show All Favourites Button Styling */
+#show-favorites {
+    margin: 5px 20px;
+}
+
+#superhero-list {
+    min-height: 420px;
+    margin-bottom: 20px;
+}
+
+.card {
+    max-width: 100%;
+}
+.card-text {
+    word-wrap: break-word;
+}
+
+#superhero-detail{
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+#superhero-detail-img{
+    padding: 0px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+#superhero-detail-body{
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+#superhero-detail-body p{
+    font-size: 18px;
+}
+
+#superhero-detail-body h4{
+    padding-top: 2px;
+    margin-right: 15px;
+}
+
+#superhero-detail-body text{
+    padding: 0px 10px;
+    font-size: 18px;
+}

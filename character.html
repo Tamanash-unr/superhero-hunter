@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Superhero Hunter</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="src/styles.css">
+
+  <!-- Crypto JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+</head>
+
+<body>
+  <main>
+    <!-- Main Page Heading & Link to Home Page -->
+    <div class="main-header">
+        <a class="h-100 w-100 display-4 fw-normal" href="index.html">Superhero Hunter</a>
+    </div>
+
+    <!-- Superhero Detail Card -->
+    <div class="m-4 g-3">
+          <div id="superhero-detail" class="row shadow-sm">
+            <!-- Superhero Image -->
+            <img id="superhero-detail-img" class="bd-placeholder-img col-sm-12 col-md-4" width="200px" height="500px" src="#" alt="No Image Found..">
+            <div id="superhero-detail-body" class="col-sm-10 col-md-6 w-80">
+              <!-- Superhero Title -->
+              <h3 id="hero-title">Hero Title</h3>
+              <!-- Superhero Description -->
+              <p id="hero-description">Hero Description</p>
+              <!-- Comics Details -->
+              <div class="d-flex align-items-center">
+                <h4>Comics :</h4>
+                <text id="hero-comics-detail" >0</text>
+              </div>
+              <!-- Series Details -->
+              <div class="d-flex align-items-center">
+                <h4>Series :</h4>
+                <text id="hero-series-detail">0</text>
+              </div>
+              <!-- Events Details -->
+              <div class="d-flex align-items-center">
+                <h4>Events :</h4>
+                <text id="hero-event-detail">0</text>
+              </div>
+              <!-- Stories Details -->
+              <div class="d-flex align-items-center">
+                <h4>Stories :</h4>
+                <text id="hero-story-detail">0</text>
+              </div>
+            </div>
+          </div>
+      </div>
+  </main>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JS -->
+  <script src="src/character.js"></script>
+</body>
+
+</html>
