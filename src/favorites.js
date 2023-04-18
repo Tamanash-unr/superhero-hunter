@@ -45,6 +45,7 @@ function removeFromFavorites(heroID) {
 
     favorites = filteredFavs;
     sessionStorage.setItem("favorite-heroes", JSON.stringify(favorites));
+    localStorage.setItem("favorite-heroes", JSON.stringify(favorites));
 
     heroes = [];
     fetchFavourites();
